@@ -37,7 +37,7 @@
 // let s=str.substring(2)
 // console.log(s);
 let d = new Date();
-console.log(d.toLocaleDateString());
-console.log(d.toString());
-console.log(d.toDateString());
-console.log(d.setDate());
+// console.log(d.toLocaleDateString());
+// console.log(d.toString());
+// console.log(d.toDateString());
+console.log(d.setHours(5));

@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+    <p style="background-color: cyan;">Click here to Display a date agter changing</p>
+   
+    <button onclick="fun()" style="height: 30px; background-color: chartreuse;"> Click Here</button>
+   
+    <p id="demo"></p>
+    <p id="time"></p>
+   
+   <script>
+        // function myFunction() {
+            // var t = new Date();
+            //  t.toLocaleTimeString(5);
+            // document.getElementById("demo").innerHTML =t;
+        // }
+        function fun() {
+            setInterval(()=>{
+                    var t=new Date().toLocaleTimeString();
+                    var d=new Date().toLocaleDateString()
+                    document.getElementById("time").innerHTML =t;
+                    document.getElementById("demo").innerHTML =d;
+
+                },100)
+            }
+        
+    </script>
+<h1> Ram Ram Bhau </h1>
+
+</body>
+</html>
